@@ -14,8 +14,4 @@ jobs:
 workflows:
   node-test:
     jobs:
-      - build-test:
-          filters:
-            branches:
-              only:
-                - main
+      - build-test
